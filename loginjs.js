@@ -40,7 +40,7 @@ $(document).ready(function () {
 
     if (validateUserName(username) && validatePassword(password)) {
       console.log("test!!");
-      window.location.href = "task1.html";
+      window.location.href = "./AnotherStaticPage/task1.html";
     }
   });
 });
